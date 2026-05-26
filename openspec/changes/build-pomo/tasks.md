@@ -18,22 +18,22 @@ This checklist breaks work into phases. Each checkbox should be marked `- [x]` w
   - [ ] `POST /api/sessions` (focus session create/finalize)
 
 ## Phase 2: Timer + focus session recording
-- [ ] Implement Timer component with phase state machine (focus/short/long + auto progression)
+- [x] Implement Timer component with phase state machine (focus/short/long + auto progression)
 - [ ] On focus start, persist a draft/future session (or keep id in memory) and record `actualStartAt`
 - [ ] On focus end, persist `actualEndAt` and finalize `FocusSession`
-- [ ] Add UI to optionally link the active session to a selected `Task`
+- [x] Add UI to optionally link the active session to a selected `Task`
 - [ ] Add UI to capture mood:
   - [ ] quick mood before/after (MVP: prompt before ending focus)
   - [ ] store `moodBeforeId` and `moodAfterId`
 - [ ] Ensure timer UI remains responsive (avoid re-rendering every second with heavy computations)
 
 ## Phase 3: Task tracking UI
-- [ ] Build Tasks page:
-  - [ ] create task
-  - [ ] edit task title/description
-  - [ ] archive task
-- [ ] Add “Task focus stats” view (computed from sessions)
-- [ ] Wire task selection into the timer start flow
+- [x] Build Tasks page:
+  - [x] create task
+  - [x] edit task title/description
+  - [x] archive task
+- [x] Add “Task focus stats” view (computed from sessions)
+- [x] Wire task selection into the timer start flow
 
 ## Phase 4: Mood tracking UI
 - [ ] Build Mood page:
@@ -63,7 +63,7 @@ This checklist breaks work into phases. Each checkbox should be marked `- [x]` w
 - [ ] Add API route tests for create/update endpoints (happy path + validation)
 
 ## Phase 8: “Ready to run”
-- [ ] Add README with local setup steps
+- [x] Add README with local setup steps
 - [ ] Verify full manual flow:
   - [ ] create a task
   - [ ] run a focus session
