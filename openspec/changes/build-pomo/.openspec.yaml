@@ -1,0 +1,12 @@
+schemaName: spec-driven
+name: build-pomo
+applyRequires:
+  - tasks
+artifacts:
+  - id: proposal
+    outputPath: openspec/changes/build-pomo/proposal.md
+  - id: design
+    outputPath: openspec/changes/build-pomo/design.md
+  - id: tasks
+    outputPath: openspec/changes/build-pomo/tasks.md
+
